@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,19 +19,21 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/style.css"/>
     
     <title>Work Day Scheduler</title>
+
   </head>
 
   <body>
+    <!-- The header contains the text at the head of the page as well as where the current day is appended. -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- These time blocks, which are divs, were basically copy pasted, just required an alteration of certain IDs -->
+      <!-- These time blocks, which are all divs, were basically copy pasted, just required an alteration of certain IDs -->
       <div class="row time-block">
         <div class="hour col-sm-1 col-2">9 AM<br><br></div>
         <textarea class="col-sm-10 col-6 description nine" id="text0"></textarea>
@@ -52,27 +55,27 @@
         <button class="col-sm-1 col-2 saveBtn" id="3"></i></button>
       </div>
       <div class="row time-block">
-        <div class="hour col-sm-1 col-2">1 AM<br><br></div>
+        <div class="hour col-sm-1 col-2">1 PM<br><br></div>
         <textarea class="col-sm-10 col-6 description one" id="text4"></textarea>
         <button class="col-sm-1 col-2 saveBtn" id="4"></button>
       </div>
       <div class="row time-block">
-        <div class="hour col-sm-1 col-2">2 AM<br><br></div>
+        <div class="hour col-sm-1 col-2">2 PM<br><br></div>
         <textarea class="col-sm-10 col-6 description two" id="text5"></textarea>
         <button class="col-sm-1 col-2 saveBtn" id="5"></button>
       </div>
       <div class="row time-block">
-        <div class="hour col-sm-1 col-2">3 AM<br><br></div>
+        <div class="hour col-sm-1 col-2">3 PM<br><br></div>
         <textarea class="col-sm-10 col-6 description three" id="text6"></textarea>
         <button class="col-sm-1 col-2 saveBtn" id="6"></button>
       </div>
       <div class="row time-block">
-        <div class="hour col-sm-1 col-2">4 AM<br><br></div>
+        <div class="hour col-sm-1 col-2">4 PM<br><br></div>
         <textarea class="col-sm-10 col-6 description four" id="text7"></textarea>
         <button class="col-sm-1 col-2 saveBtn" id="7"></button>
       </div>
       <div class="row time-block">
-        <div class="hour col-sm-1 col-2">5 AM<br><br></div>
+        <div class="hour col-sm-1 col-2">5 PM<br><br></div>
         <textarea class="col-sm-10 col-6 description five" id="text8"></textarea>
         <button class="col-sm-1 col-2 saveBtn" id="8"></button>
       </div>
@@ -81,7 +84,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="lib/moment/moment.min.js"></script>
-    <script src="script.js"></script>
+    <script src="./Assets/script.js"></script>
 
   </body>
+
 </html>
